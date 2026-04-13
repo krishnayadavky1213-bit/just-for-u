@@ -1,0 +1,162 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 20% 30%, #2b1b3a, #0f0c1b);
+      font-family: 'Segoe UI', 'Quicksand', system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      color: #f3e7ff;
+    }
+
+    .step-container {
+      max-width: 680px;
+      width: 100%;
+      background: rgba(22, 15, 35, 0.75);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(230, 200, 255, 0.3);
+      border-radius: 56px;
+      padding: 35px 28px;
+      box-shadow: 0 30px 50px rgba(0, 0, 0, 0.65), inset 0 0 0 1px rgba(210, 170, 250, 0.15);
+    }
+
+    h2 {
+      font-size: 2.3rem;
+      color: #fad5ff;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 15px #b77eb8;
+    }
+
+    .step-card {
+      background: rgba(18, 12, 28, 0.8);
+      border-radius: 40px;
+      padding: 28px 26px;
+      margin: 20px 0;
+      border-left: 7px solid #e8b4ff;
+      box-shadow: 0 10px 0 #0d0914;
+    }
+
+    .message-area {
+      font-size: 1.28rem;
+      line-height: 1.75;
+      min-height: 120px;
+    }
+
+    .poetry {
+      font-style: italic;
+      font-size: 1.35rem;
+      color: #f8d6ff;
+      background: rgba(50, 30, 70, 0.6);
+      padding: 20px 24px;
+      border-radius: 30px;
+      margin: 18px 0;
+      border-left: 5px solid #c58fcf;
+      line-height: 1.8;
+    }
+
+    .character-highlight {
+      background: linear-gradient(90deg, #3a2a4f, #2c1f3a);
+      padding: 16px 20px;
+      border-radius: 28px;
+      margin: 16px 0;
+       font-size: 1.2rem;
+      line-height: 1.7;
+      border-left: 6px solid #e8b4ff;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 12px;
+      margin: 18px 0 8px;
+    }
+
+    input {
+      flex: 1;
+      background: #261f32;
+      border: 1.5px solid #a679b3;
+      border-radius: 60px;
+      padding: 15px 24px;
+      font-size: 1.22rem;
+      color: #ffecdd;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: #baa6cc;
+      font-style: italic;
+    }
+
+    .btn {
+      background: #b594d9;
+      border: none;
+      color: #1b1025;
+      font-weight: bold;
+      padding: 13px 32px;
+      border-radius: 60px;
+      font-size: 1.28rem;
+      cursor: pointer;
+      box-shadow: 0 6px 0 #5d4270;
+      transition: all 0.1s;
+    }
+
+    .btn:active {
+      transform: translateY(4px);
+      box-shadow: 0 2px 0 #4d3660;
+    }
+
+    .action-row {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin: 25px 0 15px;
+      flex-wrap: wrap;
+    }
+
+    .sweet-words {
+      font-size: 1.35rem;
+      color: #fad6b3;
+      background: #2a1e35b0;
+      padding: 8px 18px;
+      border-radius: 50px;
+      display: inline-block;
+    }
+
+    .birthday-highlight {
+      background: #4f3866;
+      padding: 8px 22px;
+      border-radius: 60px;
+      font-size: 1.85rem;
+      font-weight: bold;
+      color: #ffe3b1;
+      display: inline-block;
+      margin: 12px 0;
+    }
+
+    .music-tip {
+      background: #1f1730;
+      border-radius: 40px;
+      padding: 12px 20px;
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .fade-in {
+      animation: fade 0.4s ease;
+    }
+
+    @keyframes fade {
+      from { opacity: 0.3; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  
+    
